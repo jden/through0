@@ -1,6 +1,6 @@
 {
   "name": "through0",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "the prequel to through, you'll love it or hate it",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
     "chai": "^1.9.1",
     "mocha": "^1.18.2",
     "polyfill-promise": "^0.1.2"
+  },
+  "dependencies": {
+    "readable-stream": "^1.0.27-1"
   }
 }

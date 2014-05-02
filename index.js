@@ -1,4 +1,4 @@
-var Transform = require('stream').Transform
+var Transform = require('readable-stream').Transform
 
 function through(fn) {
   var transform = new Transform({objectMode: true})
